@@ -19,7 +19,7 @@ public class Main {
             if (bet != a) {
                 cash -= 10;
                 if (cash == 0) {
-                    System.out.println("LOOOOSER");
+                    System.out.println("LOOOSER");
                 }else {
                 System.out.println("Try again, you have " + cash + "pt");}
             } else {
